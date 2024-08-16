@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pottersblogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Rock+3D&display=swap" rel="stylesheet">
+    <style>
+        *{
+            color:white;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            box-sizing: border-box;
+            font-family: "Cinzel Decorative", serif;
+        }
+        body{
+            width: 100vw;
+        }
+        .header-img{
+            height: 75px;
+            padding: 10px;
+        }
+        .header{
+            height: 10vh;
+            width: 100%;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header h1{
+            cursor: none;
+        }
+        .title{
+            display: flex;
+            align-items: center;
+            width: 30%;
+        }
+        .title h1{
+            margin-left: 30px;
+        }
+        .navi{
+            display: flex;
+            align-items: center;
+            width: 30%;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container{
+            width: 100vw;
+            min-height: 85vh;
+            padding: 20px;
+        }
+        .bloglist{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;     
+        }
+        .blog{
+            display: flex   ;
+            text-align: center;
+            width: 800px;
+            height: 150px;
+            background-color: transparent;
+            padding: 2px;
+            overflow: clip;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .blog h2:hover{
+            scale: 1.75;
+            color: #e1ad6d;
+        }
+        .blognum{
+            width: 0;
+            outline: 0;
+            border: 0;
+        }
+        .home{
+            width: 100vw;
+            height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            text-align: center;
+        }
+        .home h1{
+            cursor: none;
+        }
+        .info{
+            width: 100vw;
+            height: 85vh;
+            padding:30px;
+        }
+        .info div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5vh;
+        }
+        .footer{
+            text-align: center;
+            height: 5vh;
+        }
+        .head{
+            width: 100%;
+            border: 0;
+            border-bottom: 1px solid white;
+            height: 15%;
+            padding: 10px;
+            font-size: 40px;
+            font-weight: bold;
+            outline: none;
+        }
+        .story{
+            width: 100%;
+            border: none;
+            min-height: 75%;
+            text-align: left;
+            padding: 20px 10px;
+            outline: none;
+            resize: none;
+        }
+        .subbtn{
+            background-color:#e1ad6d;
+            color:white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: bold;
+            width: 100px;
+            height: fit-content;
+            cursor: pointer;
+        }
+        .expand{
+            width: 100vw;
+            min-height: 85vh;
+            padding: 20px;
+        }
+        .expandedTitle{
+            font-weight: bold;
+            width: 100%;
+            height: fit-content;
+            font-size: 40px;
+            padding:10px 10px 3px 10px;
+            text-align: center;
+            
+        }
+        .expandedTitle h1{
+            color: #e1ad6d;
+        }
+        .expandedText{
+            width: 100%;
+            padding: 20px 30px;
+            font-size: 20px;
+            text-align: center;
+            font-family:Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <img class="header-img" src="https://mrwallpaper.com/images/high/harry-potter-houses-black-background-mzmtslyg1mxh5ecy.jpg"/>
+            <h1>Potter's Pen</h1>
+        </div>
+        <div class="navi">
+            <a href="/scripts">Scripts</a>
+            <a href="/make">Forgery</a>
+            <a href="/">Home</a>
+        </div>
+    </div>
